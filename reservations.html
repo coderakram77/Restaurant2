@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="./images/logo2.jpg" alt="">
+            <ul>
+                <li><a href="Home.html"> Home </a></li>
+                <li><a href="reservations.html"> Reservations </a></li>
+                <li><a href="Services.html"> Services</a></li>
+                <li><a href="why-us.html"> Why Us</a></li>
+                <li><a href="Contact.html"> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div><br>
+            &emsp; <span> Enter Your Destination</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; &ensp; <span>Check-in Date</span>
+            &emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; <span>Check-Out Date</span>
+             <br><i class="fas fa-map-marker-alt"></i> <input type="text" class="location"  placeholder="Enter Your Destination ..." >
+             <input type="date" class="date" name="date" value="2021-01-01" min="2021-01-01" max="2022-01-01">
+             &ensp;<input type="date" class="date" name="date" value="2021-01-01" min="2021-01-01" max="2022-01-01" placeholder="Check-in"> <br>
+             <select>
+                <i class="fas fa-user"></i>
+                <option disabled selected value="">Adult</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">+5</option>
+             </select>
+
+             <select>
+                <option disabled selected value="">Children</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">+5</option>
+             </select>
+             
+             <select>
+                <option disabled selected value="">Residence Type</option>
+                <option value="">Presidential Suite</option>
+                <option value="">Luxury Suite</option>
+                <option value="">Suite</option>
+                <option value="">Room</option>
+             </select>
+
+             <select>
+                <option selected value="">Services</option>
+                <option value="">Ultra Speed Wi-Fi</option>
+                <option value="">Special barber</option>
+                <option value="">Private Butler</option>
+                <option value="">Netflix Subscription</option>
+             </select>
+             
+             <button type="submit" formmethod="post" class="submit">Submit</button>
+             
+             <!-- <img class="location" src="./images/location.png" alt=""> -->
+        </div>
+    </main>
+</body>
+</html>
